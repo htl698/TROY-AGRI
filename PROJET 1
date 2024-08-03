@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Personnelle de TROY Hasiniaina Ludmila</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        .project, .pricing, .activities {
+            background-color: #e7ffe7;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .sub-section {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TROY AGRI</h1>
+    </header>
+    <nav>
+        <a href="#about">À Propos</a>
+        <a href="#contact">Contact</a>
+        <a href="#circuits">Circuits Touristiques</a>
+        <a href="#activities">Activités</a>
+    </nav>
+    <section id="about">
+        <h2>À Propos</h2>
+        <p>TROY AGRI est une ferme Agro-touristique </p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Retrouvez-moi sur mes réseaux sociaux :</p>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=61551047371288" target="_blank">TROY AGRI</a></li>
+			<a href="https://www.facebook.com/ludmila.th." target="_blank">hasiniaina ludmila troy</a>
+			<li><a href="+261 34 92 194 38">+261349219438</a></li>
+			<li><a href="">hasiniainaludmilatroy@gmail</a></li>
+        </ul>
+    </section>
+    <section id="circuits" class="project">
+        <h2>Circuits Touristiques</h2>
+        <p>Voici les différents circuits touristiques que nous proposons :</p>
+        <div class="sub-section">
+            <h3>Circuit Analavelona</h3>
+            <p>Description du circuit Analavelona.</p>
+			<p>visite rizière, visite site piscicole, randonné jusqu'au cascade.</p>
+			<p>repas inclu</p>
+            <p>Prix : 50 €</p>
+        </div>
+        <div class="sub-section">
+            <h3>Circuit Mahatsinjo</h3>
+            <p>Description du circuit Mahatsinjo.</p>
+			<p>randonnée vers le point de vue pour avoir une vue panoramique sur les colines verdoyantes aux allentour.</p>
+			<p>camping</p>
+			<p>repas inclu</p>
+            <p>Prix : 100 €</p>
+        </div>
+        <div class="sub-section">
+            <h3>Circuit Les Cannelier</h3>
+            <p>Description du circuit Les Cannelier.</p>
+			<p>visite pepinière, visite champ de plantation.</p>
+			<p>reboisement picnic</p>
+            <p>Prix : 80 €</p>
+        </div>
+        <div class="sub-section">
+            <h3>Circuit Menaderoka</h3>
+            <p>Description du circuit Menaderoka.</p>
+			<p>reboisement picnic</p>
+            <p>Prix : 80 €</p>
+        </div>
+    </section>
+    <section id="activities" class="activities">
+        <h2>Activités</h2>
+        <p>Description des différentes activités proposées.</p>
+		<p>PECHE.</p>
+		<p>CAMPING.</p>
+		<p>RANDONNEE.</p>
+		<p>REBOISEMENT.</p>
+		<p>TOURS DU LAC EN PIROGUE.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 TROY Hasiniaina Ludmila. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
